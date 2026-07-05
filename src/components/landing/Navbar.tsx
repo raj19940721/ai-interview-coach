@@ -1,24 +1,6 @@
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
-
-const navItems = [
-  {
-    name: "Features",
-    href: "#features",
-  },
-  {
-    name: "Pricing",
-    href: "#pricing",
-  },
-  {
-    name: "About",
-    href: "#about",
-  },
-  {
-    name: "Contact",
-    href: "#contact",
-  },
-];
+import { NAVIGATION } from "@/constants/navigation";
 
 export default function Navbar() {
   return (
@@ -31,13 +13,13 @@ export default function Navbar() {
 
         {/* Navigation */}
         <nav className="hidden md:flex items-center gap-8">
-          {navItems.map((item) => (
+          {NAVIGATION.map((item) => (
             <Link
-              key={item.name}
+              key={item.title}
               href={item.href}
               className="text-sm font-medium text-gray-600 hover:text-black transition-colors"
             >
-              {item.name}
+              {item.title}
             </Link>
           ))}
         </nav>

@@ -1,4 +1,5 @@
 import { FileText, Mic, Code2, BarChart3 } from "lucide-react";
+import { Feature } from "@/types";
 
 export const FEATURES = [
   {
