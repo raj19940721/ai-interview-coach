@@ -1,7 +1,15 @@
-export default function HomePage() {
+import Navbar from "@/components/landing/Navbar";
+import Hero from "@/components/landing/Hero";
+import Features from "@/components/landing/Features";
+import Footer from "@/components/landing/Footer";
+
+export default function Home() {
   return (
-    <main className="min-h-screen flex items-center justify-center">
-      <h1 className="text-4xl font-bold">Welcome to the AI Interview Coach</h1>
-    </main>
+    <>
+      <Navbar />
+      <Hero />
+      <Features />
+      <Footer />
+    </>
   );
 }
