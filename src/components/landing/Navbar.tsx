@@ -24,12 +24,14 @@ export default function Navbar() {
           ))}
         </nav>
 
-        {/* Buttons */}
-        <div className="flex items-center gap-3">
+        {/* Auth Buttons */}
+        <Link href="/sign-in">
           <Button variant="ghost">Login</Button>
+        </Link>
 
+        <Link href="/sign-up">
           <Button>Get Started</Button>
-        </div>
+        </Link>
       </div>
     </header>
   );

@@ -27,9 +27,7 @@ export default function Features() {
                 <div className="mt-6 flex items-center justify-between">
                   <h3 className="text-xl font-bold">{feature.title}</h3>
 
-                  <ArrowUpRight
-                    className="h-5 w-5 opacity-0 group-hover:opacity-100 group-hover:translate-x-1 transition"
-                  />
+                  <ArrowUpRight className="h-5 w-5 opacity-0 group-hover:opacity-100 group-hover:translate-x-1 transition" />
                 </div>
 
                 <p className="mt-4 leading-7 text-muted-foreground">

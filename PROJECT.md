@@ -3,12 +3,14 @@
 ## Week 1
 
 ### Day 1 ✅
+
 - Next.js setup
 - GitHub
 - Tailwind
 - shadcn/ui
 
 ### Day 2 ✅
+
 - Navbar
 - Hero
 - Features
@@ -16,4 +18,5 @@
 - Refactoring
 
 ### Day 3
+
 - Authentication
